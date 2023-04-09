@@ -47,7 +47,7 @@ public class Create_OrganizationTest extends Generic_Utilities.BaseClass{
 				String Actual=oi.Organization_Header();
 				
 				Assert.assertTrue(Actual.contains(ORGNAME));
-				Reporter.log("Organization Created Sucessfully",true);
+				Reporter.log("Organization Created Sucessful",true);
 	}
 	
 	@Test
