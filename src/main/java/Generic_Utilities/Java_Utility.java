@@ -22,10 +22,10 @@ public class Java_Utility {
 	public String getSystemdateInFormat() {
 		Date d=new Date();
 		String[] dArray=d.toString().split(" ");
-		String Day=dArray[1];
+		String Day=dArray[0];
 		String Date=dArray[2];
-		String Month=dArray[3];
-		String Year=dArray[4];
+		String Month=dArray[1];
+		String Year=dArray[5];
 		String time=dArray[3].replace(":","-");
 		
 		String DateFormat=Day+"-"+Date+"-"+Month+"-"+"-"+Year+"-"+time;
