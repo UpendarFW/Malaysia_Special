@@ -43,7 +43,7 @@ public class Organization_WithIndustryTest extends BaseClass{
 		String Actual=oi.Organization_Header();
 		
 		Assert.assertTrue(Actual.contains(ORGNAME));
-		System.out.println("organization created with industry");
+		System.out.println("organization created with industry Test Sucessful");
 		
 		
 		
