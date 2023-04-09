@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiceTests.samplerunTest">
+      <class name="Organization_Tests.Organization_WithIndustry">
         <methods>
           <include name="login_Application"/>
           <include name="close_Driver"/>
           <include name="after_Test"/>
-          <include name="practiceTest1"/>
           <include name="before_Suite"/>
+          <include name="createOrganizationWith_Industry"/>
           <include name="before_Test"/>
           <include name="after_Suite"/>
           <include name="logout_Application"/>
           <include name="launch_Browser"/>
         </methods>
-      </class> <!-- practiceTests.samplerunTest -->
+      </class> <!-- Organization_Tests.Organization_WithIndustry -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

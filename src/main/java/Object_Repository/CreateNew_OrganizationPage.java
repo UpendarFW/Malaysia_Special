@@ -52,7 +52,7 @@ public class CreateNew_OrganizationPage extends Webdriver_Utility{
 		organizationsaveBtn.click();
 	}
 	
-	public void OrganizationName_IndustryDrop(String ORGNAME,String orgIndustry) {
+	public void OrganizationName_IndustryDrop(String ORGNAME,String orgIndustry) throws InterruptedException {
 		organizationnameEdt.sendKeys(ORGNAME);
 		handleDropdownBy_Value(orgindustry,orgIndustry);
 		organizationsaveBtn.click();
